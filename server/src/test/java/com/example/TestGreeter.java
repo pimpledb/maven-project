@@ -22,6 +22,9 @@ public class TestGreeter {
     String someone = "World";
 
     assertThat(greeter.greet(someone), containsString(someone));
+    System.out.println("\n\n\n***********************************\n\n");
+    System.out.println("    RUNNING TEST    ");
+    System.out.println("\n\n***********************************\n\n");
   }
 
   @Test
