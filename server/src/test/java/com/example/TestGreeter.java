@@ -24,6 +24,8 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
     System.out.println("\n\n\n***********************************\n\n");
     System.out.println("    RUNNING TEST    ");
+
+    System.out.println("************  drivertype = "+System.getProperty("drivertype"));
     System.out.println("\n\n***********************************\n\n");
   }
 
