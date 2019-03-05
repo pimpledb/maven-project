@@ -25,7 +25,7 @@ public class TestGreeter {
     System.out.println("\n\n\n***********************************\n\n");
     System.out.println("    RUNNING TEST    ");
 
-    System.out.println("************  drivertype = "+System.getProperty("drivertype"));
+    System.out.println("************  drivertype = "+System.getProperty("driverType"));
     System.out.println("\n\n***********************************\n\n");
   }
 
